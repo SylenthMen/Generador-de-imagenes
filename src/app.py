@@ -37,9 +37,9 @@ import openai
 # Configura la clave API de OpenAI
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
-st.title("Generador de imágenes con DALL·E")
+st.title("Generador de imágenes con IA")
 
-st.write("Este es un generador de imágenes con DALL·E, una red neuronal que puede generar imágenes a partir de texto")
+st.write("Este es un generador de imágenes con IA, una red neuronal que puede generar imágenes a partir de texto")
 
 with st.form("image_form"):
     text = st.text_input("Para usarlo, escribe una frase que describa la imagen que quieres generar")
